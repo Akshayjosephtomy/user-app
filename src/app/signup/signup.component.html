@@ -14,6 +14,7 @@
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="" class="form-label">Gender</label>
                     <select name="gender" class="form-control" id="">
+                        <option value="" selected disabled>Choose..</option>
                         <option value="Male">Male</option>
                         <option value="Female">Female</option>
                         <option value="Other">Other</option>
@@ -51,7 +52,7 @@
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="D.O.B" class="form-label">Age</label>
-                    <input type="date" placeholder="Age" class="form-control" name="age">
+                    <input type="text" placeholder="Age" class="form-control" name="age">
                 </div>
                 <div class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-4 col-xxl-4">
                     <label for="Parent Name" class="form-label">Parent Name</label>
@@ -68,7 +69,7 @@
                 <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
                     <button class="btn btn-success">REGISTER</button>
                 </div>
-                <a href="../signin/signin.component.html">Go to login...</a>
+                <a routerLink="/">Go to login...</a>
             </div>
 
         </div>
